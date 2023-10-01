@@ -17,8 +17,8 @@ body {
 }
 
 .wrapper {
-  height: 265px;
-  max-width: 410px;
+  height: 350px;
+  max-width: 480px;
   background: #222;
   border-radius: 7px;
   padding: 20px 25px 0;
@@ -43,7 +43,7 @@ header p {
 }
 
 .wrapper .form {
-  margin: 20px 0 25px;
+  margin: 20px 0 10px;
 }
 
 .form :where(input, button) {
@@ -69,6 +69,7 @@ header p {
 
 .form input::placeholder {
   color: #999;
+  text-align: center;
 }
 
 .form button {
@@ -126,4 +127,16 @@ header p {
   .qr-code img {
     width: 160px;
   }
+}
+
+.copy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -45px;
+}
+.copy p{
+  color: #fff;
+  font-size: 1em;
+  border-bottom: 0.2em solid #a17965;
 }
