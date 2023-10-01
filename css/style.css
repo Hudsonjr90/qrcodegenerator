@@ -17,8 +17,8 @@ body {
 }
 
 .wrapper {
-  height: 350px;
-  max-width: 480px;
+  height: 390px;
+  max-width: 528px;
   background: #222;
   border-radius: 7px;
   padding: 20px 25px 0;
@@ -31,19 +31,22 @@ body {
 }
 
 header h1 {
-  font-size: 21px;
+  font-size: 28px;
   font-weight: 500;
   color: #fff;
+  text-decoration: underline;
+  text-align: center;
 }
 
 header p {
   margin-top: 5px;
   color: #aaa;
-  font-size: 16px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .wrapper .form {
-  margin: 20px 0 10px;
+  margin: 55px 0 25px;
 }
 
 .form :where(input, button) {
@@ -61,6 +64,7 @@ header p {
   border: 1px solid #999;
   color: #fff;
   background: #333;
+  text-align: center;
 }
 
 .form input:focus {
@@ -92,7 +96,7 @@ header p {
 .qr-code {
   opacity: 0;
   display: flex;
-  padding: 33px 0;
+  padding: 15px 0;
   border-radius: 5px;
   align-items: center;
   pointer-events: none;
@@ -127,16 +131,4 @@ header p {
   .qr-code img {
     width: 160px;
   }
-}
-
-.copy{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: -45px;
-}
-.copy p{
-  color: #fff;
-  font-size: 1em;
-  border-bottom: 0.2em solid #a17965;
 }
